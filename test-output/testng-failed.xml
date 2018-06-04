@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="test.Test4">
+        <methods>
+          <include name="testtwitterHome"/>
+          <include name="CloseBrowser"/>
+          <include name="LaunchBrowser"/>
+        </methods>
+      </class> <!-- test.Test4 -->
+      <class name="test.Test2">
+        <methods>
+          <include name="testInstagramHome"/>
+          <include name="CloseBrowser"/>
+          <include name="LaunchBrowser"/>
+        </methods>
+      </class> <!-- test.Test2 -->
+      <class name="test.Test3">
+        <methods>
+          <include name="testtwitterHome"/>
+          <include name="CloseBrowser"/>
+          <include name="LaunchBrowser"/>
+        </methods>
+      </class> <!-- test.Test3 -->
+      <class name="test.Test1">
+        <methods>
+          <include name="CloseBrowser"/>
+          <include name="testFacebookHome"/>
+          <include name="LaunchBrowser"/>
+        </methods>
+      </class> <!-- test.Test1 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
