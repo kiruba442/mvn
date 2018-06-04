@@ -12,7 +12,7 @@ import pom.Searchpo;
 public class Test1 extends Basetest {
 	public static WebDriverWait wait;
 	@Test
-	public void testFacebookHome() {
+	public void testFacebookHome(){
    wait=new WebDriverWait(driver, 20);
 	driver.get("https://www.google.com/");
 	Googlepo g=new Googlepo(driver);
@@ -26,5 +26,6 @@ public class Test1 extends Basetest {
     String aTitle = driver.getTitle();
     Reporter.log("title is displayed " +aTitle,true);
 	Assert.assertEquals(aTitle,eTitle);
-		}
 }
+		}
+

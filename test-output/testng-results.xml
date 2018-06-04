@@ -14,32 +14,32 @@
       <![CDATA[element is present]]>
     </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="176117" started-at="2018-06-04T17:17:38Z" finished-at="2018-06-04T17:20:35Z">
+  <suite name="Suite" duration-ms="182512" started-at="2018-06-04T18:26:00Z" finished-at="2018-06-04T18:29:03Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="176117" started-at="2018-06-04T17:17:38Z" finished-at="2018-06-04T17:20:35Z">
+    <test name="Test" duration-ms="182512" started-at="2018-06-04T18:26:00Z" finished-at="2018-06-04T18:29:03Z">
       <class name="test.Test4">
-        <test-method status="PASS" signature="LaunchBrowser()[pri:0, instance:test.Test4@ed9d034]" name="LaunchBrowser" is-config="true" duration-ms="3544" started-at="2018-06-04T17:19:54Z" finished-at="2018-06-04T17:19:58Z">
+        <test-method status="PASS" signature="LaunchBrowser()[pri:0, instance:test.Test4@ed9d034]" name="LaunchBrowser" is-config="true" duration-ms="3501" started-at="2018-06-04T18:28:23Z" finished-at="2018-06-04T18:28:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LaunchBrowser -->
-        <test-method status="FAIL" signature="testtwitterHome()[pri:0, instance:test.Test4@ed9d034]" name="testtwitterHome" duration-ms="34842" started-at="2018-06-04T17:19:58Z" finished-at="2018-06-04T17:20:32Z">
+        <test-method status="FAIL" signature="testtwitterHome()[pri:0, instance:test.Test4@ed9d034]" name="testtwitterHome" duration-ms="34041" started-at="2018-06-04T18:28:27Z" finished-at="2018-06-04T18:29:01Z">
           <exception class="org.openqa.selenium.TimeoutException">
             <message>
               <![CDATA[Expected condition failed: waiting for title to contain "Sign Up | LinkedIn1". Current title: "Sign Up | LinkedIn" (tried for 20 second(s) with 500 MILLISECONDS interval)
 Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
-System info: host: 'DELL', ip: '192.168.1.7', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_161'
+System info: host: 'DELL', ip: '192.168.43.153', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_161'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91), userDataDir=C:\Users\user\AppData\Local\Temp\scoped_dir6944_24456}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=66.0.3359.139, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
-Session ID: 15a5d207b0330c3977f810ce37db9ece]]>
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91), userDataDir=C:\Users\user\AppData\Local\Temp\scoped_dir2344_16434}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=66.0.3359.139, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 0652964c231db41667063a641099a9b8]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for title to contain "Sign Up | LinkedIn1". Current title: "Sign Up | LinkedIn" (tried for 20 second(s) with 500 MILLISECONDS interval)
 Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
-System info: host: 'DELL', ip: '192.168.1.7', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_161'
+System info: host: 'DELL', ip: '192.168.43.153', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_161'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91), userDataDir=C:\Users\user\AppData\Local\Temp\scoped_dir6944_24456}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=66.0.3359.139, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
-Session ID: 15a5d207b0330c3977f810ce37db9ece
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91), userDataDir=C:\Users\user\AppData\Local\Temp\scoped_dir2344_16434}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=66.0.3359.139, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 0652964c231db41667063a641099a9b8
 at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
 at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:232)
 at test.Test4.testtwitterHome(Test4.java:27)
@@ -77,7 +77,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </line>
           </reporter-output>
         </test-method> <!-- testtwitterHome -->
-        <test-method status="PASS" signature="CloseBrowser(org.testng.ITestResult)[pri:0, instance:test.Test4@ed9d034]" name="CloseBrowser" is-config="true" duration-ms="2185" started-at="2018-06-04T17:20:32Z" finished-at="2018-06-04T17:20:35Z">
+        <test-method status="PASS" signature="CloseBrowser(org.testng.ITestResult)[pri:0, instance:test.Test4@ed9d034]" name="CloseBrowser" is-config="true" duration-ms="2270" started-at="2018-06-04T18:29:01Z" finished-at="2018-06-04T18:29:03Z">
           <params>
             <param index="0">
               <value>
@@ -90,27 +90,27 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
         </test-method> <!-- CloseBrowser -->
       </class> <!-- test.Test4 -->
       <class name="test.Test3">
-        <test-method status="PASS" signature="LaunchBrowser()[pri:0, instance:test.Test3@4d3167f4]" name="LaunchBrowser" is-config="true" duration-ms="3600" started-at="2018-06-04T17:19:08Z" finished-at="2018-06-04T17:19:12Z">
+        <test-method status="PASS" signature="LaunchBrowser()[pri:0, instance:test.Test3@4d3167f4]" name="LaunchBrowser" is-config="true" duration-ms="3644" started-at="2018-06-04T18:27:42Z" finished-at="2018-06-04T18:27:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LaunchBrowser -->
-        <test-method status="FAIL" signature="testtwitterHome()[pri:0, instance:test.Test3@4d3167f4]" name="testtwitterHome" duration-ms="40350" started-at="2018-06-04T17:19:12Z" finished-at="2018-06-04T17:19:52Z">
+        <test-method status="FAIL" signature="testtwitterHome()[pri:0, instance:test.Test3@4d3167f4]" name="testtwitterHome" duration-ms="35811" started-at="2018-06-04T18:27:45Z" finished-at="2018-06-04T18:28:21Z">
           <exception class="org.openqa.selenium.TimeoutException">
             <message>
               <![CDATA[Expected condition failed: waiting for title to contain "Login on Twitter3". Current title: "Login on Twitter" (tried for 20 second(s) with 500 MILLISECONDS interval)
 Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
-System info: host: 'DELL', ip: '192.168.1.7', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_161'
+System info: host: 'DELL', ip: '192.168.43.153', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_161'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91), userDataDir=C:\Users\user\AppData\Local\Temp\scoped_dir4264_9695}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=66.0.3359.139, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
-Session ID: 8251bbc55a80fb46b0948e1578202156]]>
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91), userDataDir=C:\Users\user\AppData\Local\Temp\scoped_dir5040_19124}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=66.0.3359.139, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: b2279744643009262fc454e239826d35]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for title to contain "Login on Twitter3". Current title: "Login on Twitter" (tried for 20 second(s) with 500 MILLISECONDS interval)
 Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
-System info: host: 'DELL', ip: '192.168.1.7', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_161'
+System info: host: 'DELL', ip: '192.168.43.153', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_161'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91), userDataDir=C:\Users\user\AppData\Local\Temp\scoped_dir4264_9695}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=66.0.3359.139, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
-Session ID: 8251bbc55a80fb46b0948e1578202156
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91), userDataDir=C:\Users\user\AppData\Local\Temp\scoped_dir5040_19124}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=66.0.3359.139, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: b2279744643009262fc454e239826d35
 at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
 at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:232)
 at test.Test3.testtwitterHome(Test3.java:27)
@@ -148,7 +148,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </line>
           </reporter-output>
         </test-method> <!-- testtwitterHome -->
-        <test-method status="PASS" signature="CloseBrowser(org.testng.ITestResult)[pri:0, instance:test.Test3@4d3167f4]" name="CloseBrowser" is-config="true" duration-ms="1775" started-at="2018-06-04T17:19:52Z" finished-at="2018-06-04T17:19:54Z">
+        <test-method status="PASS" signature="CloseBrowser(org.testng.ITestResult)[pri:0, instance:test.Test3@4d3167f4]" name="CloseBrowser" is-config="true" duration-ms="1827" started-at="2018-06-04T18:28:21Z" finished-at="2018-06-04T18:28:23Z">
           <params>
             <param index="0">
               <value>
@@ -161,27 +161,27 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
         </test-method> <!-- CloseBrowser -->
       </class> <!-- test.Test3 -->
       <class name="test.Test2">
-        <test-method status="PASS" signature="LaunchBrowser()[pri:0, instance:test.Test2@76a3e297]" name="LaunchBrowser" is-config="true" duration-ms="3498" started-at="2018-06-04T17:18:28Z" finished-at="2018-06-04T17:18:32Z">
+        <test-method status="PASS" signature="LaunchBrowser()[pri:0, instance:test.Test2@76a3e297]" name="LaunchBrowser" is-config="true" duration-ms="4152" started-at="2018-06-04T18:26:52Z" finished-at="2018-06-04T18:26:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LaunchBrowser -->
-        <test-method status="FAIL" signature="testInstagramHome()[pri:0, instance:test.Test2@76a3e297]" name="testInstagramHome" duration-ms="34094" started-at="2018-06-04T17:18:32Z" finished-at="2018-06-04T17:19:06Z">
+        <test-method status="FAIL" signature="testInstagramHome()[pri:0, instance:test.Test2@76a3e297]" name="testInstagramHome" duration-ms="43620" started-at="2018-06-04T18:26:56Z" finished-at="2018-06-04T18:27:40Z">
           <exception class="org.openqa.selenium.TimeoutException">
             <message>
               <![CDATA[Expected condition failed: waiting for title to contain "Instagram2". Current title: "Instagram" (tried for 20 second(s) with 500 MILLISECONDS interval)
 Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
-System info: host: 'DELL', ip: '192.168.1.7', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_161'
+System info: host: 'DELL', ip: '192.168.43.153', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_161'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91), userDataDir=C:\Users\user\AppData\Local\Temp\scoped_dir6148_10657}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=66.0.3359.139, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
-Session ID: 1abfb60564b7c33dd866b2049395be4b]]>
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91), userDataDir=C:\Users\user\AppData\Local\Temp\scoped_dir1776_10651}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=66.0.3359.139, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 15128233eabd39fea5c93d54cc19b777]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for title to contain "Instagram2". Current title: "Instagram" (tried for 20 second(s) with 500 MILLISECONDS interval)
 Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
-System info: host: 'DELL', ip: '192.168.1.7', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_161'
+System info: host: 'DELL', ip: '192.168.43.153', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_161'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91), userDataDir=C:\Users\user\AppData\Local\Temp\scoped_dir6148_10657}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=66.0.3359.139, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
-Session ID: 1abfb60564b7c33dd866b2049395be4b
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91), userDataDir=C:\Users\user\AppData\Local\Temp\scoped_dir1776_10651}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=66.0.3359.139, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 15128233eabd39fea5c93d54cc19b777
 at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
 at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:232)
 at test.Test2.testInstagramHome(Test2.java:27)
@@ -219,7 +219,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </line>
           </reporter-output>
         </test-method> <!-- testInstagramHome -->
-        <test-method status="PASS" signature="CloseBrowser(org.testng.ITestResult)[pri:0, instance:test.Test2@76a3e297]" name="CloseBrowser" is-config="true" duration-ms="2237" started-at="2018-06-04T17:19:06Z" finished-at="2018-06-04T17:19:08Z">
+        <test-method status="PASS" signature="CloseBrowser(org.testng.ITestResult)[pri:0, instance:test.Test2@76a3e297]" name="CloseBrowser" is-config="true" duration-ms="2070" started-at="2018-06-04T18:27:40Z" finished-at="2018-06-04T18:27:42Z">
           <params>
             <param index="0">
               <value>
@@ -232,27 +232,27 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
         </test-method> <!-- CloseBrowser -->
       </class> <!-- test.Test2 -->
       <class name="test.Test1">
-        <test-method status="PASS" signature="LaunchBrowser()[pri:0, instance:test.Test1@3aeaafa6]" name="LaunchBrowser" is-config="true" duration-ms="5959" started-at="2018-06-04T17:17:39Z" finished-at="2018-06-04T17:17:45Z">
+        <test-method status="PASS" signature="LaunchBrowser()[pri:0, instance:test.Test1@3aeaafa6]" name="LaunchBrowser" is-config="true" duration-ms="5921" started-at="2018-06-04T18:26:00Z" finished-at="2018-06-04T18:26:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LaunchBrowser -->
-        <test-method status="FAIL" signature="testFacebookHome()[pri:0, instance:test.Test1@3aeaafa6]" name="testFacebookHome" duration-ms="37856" started-at="2018-06-04T17:17:45Z" finished-at="2018-06-04T17:18:22Z">
+        <test-method status="FAIL" signature="testFacebookHome()[pri:0, instance:test.Test1@3aeaafa6]" name="testFacebookHome" duration-ms="42860" started-at="2018-06-04T18:26:06Z" finished-at="2018-06-04T18:26:49Z">
           <exception class="org.openqa.selenium.TimeoutException">
             <message>
               <![CDATA[Expected condition failed: waiting for title to contain "Facebook – log in or sign up3". Current title: "Facebook – log in or sign up" (tried for 20 second(s) with 500 MILLISECONDS interval)
 Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
-System info: host: 'DELL', ip: '192.168.1.7', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_161'
+System info: host: 'DELL', ip: '192.168.43.153', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_161'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91), userDataDir=C:\Users\user\AppData\Local\Temp\scoped_dir7752_28254}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=66.0.3359.139, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
-Session ID: 4bc5320c84a0eb61dc6d48d054cf66f6]]>
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91), userDataDir=C:\Users\user\AppData\Local\Temp\scoped_dir7712_12846}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=66.0.3359.139, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 8bae167e74feaabe6bf57de35eeb8d18]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for title to contain "Facebook – log in or sign up3". Current title: "Facebook – log in or sign up" (tried for 20 second(s) with 500 MILLISECONDS interval)
 Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
-System info: host: 'DELL', ip: '192.168.1.7', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_161'
+System info: host: 'DELL', ip: '192.168.43.153', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_161'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91), userDataDir=C:\Users\user\AppData\Local\Temp\scoped_dir7752_28254}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=66.0.3359.139, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
-Session ID: 4bc5320c84a0eb61dc6d48d054cf66f6
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91), userDataDir=C:\Users\user\AppData\Local\Temp\scoped_dir7712_12846}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=66.0.3359.139, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 8bae167e74feaabe6bf57de35eeb8d18
 at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
 at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:232)
 at test.Test1.testFacebookHome(Test1.java:25)
@@ -290,7 +290,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </line>
           </reporter-output>
         </test-method> <!-- testFacebookHome -->
-        <test-method status="PASS" signature="CloseBrowser(org.testng.ITestResult)[pri:0, instance:test.Test1@3aeaafa6]" name="CloseBrowser" is-config="true" duration-ms="6086" started-at="2018-06-04T17:18:22Z" finished-at="2018-06-04T17:18:28Z">
+        <test-method status="PASS" signature="CloseBrowser(org.testng.ITestResult)[pri:0, instance:test.Test1@3aeaafa6]" name="CloseBrowser" is-config="true" duration-ms="2717" started-at="2018-06-04T18:26:49Z" finished-at="2018-06-04T18:26:52Z">
           <params>
             <param index="0">
               <value>
